@@ -1,0 +1,21 @@
+{
+  "name": "apollo-server",
+  "description": "",
+  "license": "MIT",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon index.ts localhost 4000",
+    "nodev": "nvm use 16.14.2"
+  },
+  "keywords": [],
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "nodemon": "2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
